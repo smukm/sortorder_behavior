@@ -1,0 +1,25 @@
+{
+  "name": "smukm/ymod-blimport",
+  "description": "Behavior for automatic filling sorting field for Yii2 AR Models",
+  "keywords": ["yii2", "behavior"],
+  "type": "yii2-extension",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "SmukM",
+      "email": "vv68@bk.ru"
+    }
+  ],
+  "require": {
+    "php": ">=8.0",
+    "yiisoft/yii2": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "smukm\\sortorder\\": ""
+    }
+  }
+}
