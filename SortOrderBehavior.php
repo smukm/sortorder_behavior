@@ -19,7 +19,7 @@ use yii\db\BaseActiveRecord;
 class SortOrderBehavior extends Behavior
 {
     public string $sortAttribute = 'sort_order';
-    public string $groupAttribute = 'group_id';
+    public string $groupAttribute;
     public int $incrementValue = 1;
 
     public function events(): array
