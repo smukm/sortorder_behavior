@@ -1,5 +1,5 @@
 {
-  "name": "smukm/ymod-blimport",
+  "name": "smukm/sortorder_behavior",
   "description": "Behavior for automatic filling sorting field for Yii2 AR Models",
   "keywords": ["yii2", "behavior"],
   "type": "yii2-extension",
