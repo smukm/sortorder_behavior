@@ -132,7 +132,7 @@ class SortOrderBehavior extends Behavior
 
     public function moveLast(): void
     {
-        $lastElement = $this->getFirstElement();
+        $lastElement = $this->getLastElement();
         if($lastElement) {
             $ownerSort = $this->owner->{$this->sortAttribute};
             $this->owner->{$this->sortAttribute} = $lastElement->{$this->sortAttribute};
