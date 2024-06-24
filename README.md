@@ -18,7 +18,7 @@ class Sample extends \yii\db\ActiveRecord
         return [
             'SortOrderBehavior' => [
                 'class' => SortOrderBehavior::class,
-                'sortAttribute' => 'order'
+                'sortAttribute' => 'order',
             ]
         ];
     }
